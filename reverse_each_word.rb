@@ -25,5 +25,5 @@ def reverse_each_word(string)
     new_words << word.reverse
   end
   
-  # new_words.join(" ")
+   new_words.join(" ")
 end
