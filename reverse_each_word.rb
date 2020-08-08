@@ -10,7 +10,7 @@
 #   reversed = new_words.join("")
 #   reversed_words = reversed.split(" ")
   
-#   reversed_words.collect do |word|
+#   reversed_words.each do |word|
 #     new_sent.unshift(word)
 #   end
   
