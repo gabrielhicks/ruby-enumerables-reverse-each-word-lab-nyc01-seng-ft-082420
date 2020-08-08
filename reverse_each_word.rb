@@ -16,3 +16,14 @@
   
 #   new_sent.join(" ")
 # end
+
+def reverse_each_word(string)
+  words = string.split("")
+  new_words = []
+  
+  words.each do |word|
+    new_words << word.reverse
+  end
+  
+  new_words
+end
